@@ -44,3 +44,11 @@ Open backend/qa_system.py and replace the placeholder:
 
 # 4. Access the Application
   #Open http://localhost:3000 in your browser to use the chat interface. 🌐
+
+## 📋 Pipeline
+  Data Ingestion: Extracts text from PDFs using PyPDF2 and splits into chunks. 📥
+  Vectorization: Generates embeddings with SentenceTransformers, stored in FAISS. 🔍
+  AI Processing: Uses Gemini API via LangChain for intelligent responses. 🤖
+  API Service: Serves requests via Uvicorn. 🌐
+
+
